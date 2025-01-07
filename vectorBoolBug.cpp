@@ -1,0 +1,1 @@
+std::vector<bool> is not the same as a bitset.  It uses a byte for each bool, not a bit. This leads to significant memory overhead, especially when dealing with a large number of booleans.
